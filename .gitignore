@@ -1,0 +1,12 @@
+# Python Sanal Ortamı
+fractal_env/
+__pycache__/
+
+# Julia Derleme Çıktıları (Artifacts)
+libs/
+*.so
+*.o
+
+# Editör dosyaları (Opsiyonel ama iyi olur)
+.vscode/
+.idea/

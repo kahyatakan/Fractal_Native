@@ -1,0 +1,37 @@
+# Fractal_Native 🚀
+
+**High-Performance Fractal Generator** using Julia (StaticCompiler) as a computation engine and Python as a driver.
+
+This project demonstrates how to compile **Julia** code into tiny (~12 KB), dependency-free standalone libraries (`.so`) and call them from **Python** with zero overhead using `ctypes`.
+
+## 🌟 Features
+- **Ultra Lightweight:** No Julia Runtime required at execution. The compiled binary is ~12 KB.
+- **Blazing Fast:** Generates 1,000,000 points in ~5ms.
+- **Flexible:** The engine is generic; Python defines the fractal rules (IFS), Julia computes the math.
+
+## 🛠️ Installation & Usage
+
+### 1. Prerequisites
+- Julia (v1.9+)
+- Python (v3.8+)
+
+### 2. Build the Engine (Julia)
+Compiles the generic IFS engine into a shared library.
+```bash
+julia --project="." build_scripts/compile.jl
+```
+
+### 3. Run the Visualizer (Python)
+Setup the environment and generate fractals.
+```bash
+# Create env
+python -m venv fractal_env
+source fractal_env/bin/activate
+pip install numpy matplotlib
+
+# Run Demos
+python dragon.py
+```
+
+## 🎨 Gallery
+*(Buraya daha sonra oluşturduğun o güzel görselleri eklersin)*
