@@ -25,7 +25,8 @@ julia --project="." build_scripts/compile.jl
 Setup the environment and generate fractals.
 ```bash
 # Create env
-python -m venv fractal_env
+python -m venv fractal_env<img width="2278" height="1269" alt="LevyC" src="https://github.com/user-attachments/assets/2c870536-b056-482c-b526-6ff305bfe951" />
+
 source fractal_env/bin/activate
 pip install numpy matplotlib
 
@@ -34,4 +35,10 @@ python dragon.py
 ```
 
 ## 🎨 Gallery
-*(Buraya daha sonra oluşturduğun o güzel görselleri eklersin)*
+<img width="2278" height="1269" alt="LevyC" src="https://github.com/user-attachments/assets/eac89e46-91cf-47c4-93a9-533ff4326656" />
+
+<img width="1000" height="1000" alt="Fern" src="https://github.com/user-attachments/assets/f1e4156a-da5f-4664-87d5-5e5a463ac858" />
+
+<img width="1200" height="800" alt="Dragon" src="https://github.com/user-attachments/assets/79a29380-f2c3-49f9-a448-c2e98a66211a" />
+
+--note that this readme is promoted by llm---
